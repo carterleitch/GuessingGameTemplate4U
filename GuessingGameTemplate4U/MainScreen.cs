@@ -30,8 +30,7 @@ namespace GuessingGameTemplate4U
             int guess = Convert.ToInt16(inputBox.Text);
 
             //TODO add guess to List of guesses on Form1
-
-
+            inputBox.Text = Convert.ToString(inputBox);
             if (guess < rand)
             {
                 outputLabel.Text = "Too Low!";
